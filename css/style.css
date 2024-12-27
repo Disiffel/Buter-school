@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(204, 204, 204, 0.52);
+    align-items: center;
+    padding: 0 10px;
+}
+
+.menu_list {
+    display: flex;
+    gap: 20px;
+}
+
+.header_action {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.header_button {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.top_inner {
+    background: url(../img/top_fon.png) center no-repeat;
+    background-size: cover;
+
+}
+
+.top_title {
+    padding-top: 20vw;
+    color: blueviolet;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.top_title p, .top_text p {
+    margin: 0;
+}
+
+.top_text {
+    padding-bottom: 20vw;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    text-align: center;
+}
+
+.main_content_inner {
+    display: flex;
+    flex-direction: column;
+    background: url(../img/content_fon.png) no-repeat center;
+    background-size: cover;
+    align-items: center;
+}
+
+.main_content_title p {
+    margin: 2vw;
+    font-size: 2.5vw;
+}
+
+.main_content_text  {
+    margin: 3vw 30vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 5vw;
+}
+
+.contents_inner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10vw;
+}
+
+.content_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1vw;
+    width: 10vw;
+}
+
+.content_text p{
+    display: flex;
+    text-align: center;
+}
+
+.form_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.form_text {
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 5vw 25vw;
+}
+
+.form_button {
+    font-size: 1.5vw;
+    margin: 0 0 3vw 0;
+    padding: 1vw;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #000000;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.main_content {
+    background-color: rgb(189, 241, 255);
+}
+
+.courses_title {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.courses_top ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px auto;
+}
+
+.courses_top li {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.jstext {
+    padding: 5% 5%;
+}
+
+.pythontext {
+    padding: 5% 5%;
+}
+
+.cpptext {
+    padding: 5% 5%;
+}
+
+.rubytext {
+    padding: 5% 5%;
+}
+
+.courses_top img {
+    display: block;
+    max-width: 100%
+}
+
+.courses_bottom img {
+    display: block;
+    max-width: 100%
+}
+
+.courses_bottom ul {
+    width:90%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px auto;
+}
+
+.courses_bottom li {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.teacher_title {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.teacher ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 10%;
+}
+
+.teacher img {
+    width: 100%;
+}
+
+.teacher li {
+    width: 25%;
+    background-color: white;
+    text-align: center;
+}
+
+.reviews_title {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.reviews_top ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reviews_top li {
+    background-color: rgb(187, 187, 187);
+    width: 30%;
+    text-align: center;
+}
+
+.reviews_bottom ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reviews_bottom li {
+    background-color: rgb(187, 187, 187);
+    width: 30%;
+    text-align: center;
+}
+
+.we_title {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.data ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.data li {
+    font-size: 15pt;
+    margin-top: 2%;
+}
+
+.zapis_top ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.zapis_top li {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.zapis_bottom ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.zapis_bottom li {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.zapis_top input {
+    border-radius: 10px;
+    height: 20%;
+}
+
+.zapis_bottom input {
+    border-radius: 10px;
+    height: 25%;
+}
